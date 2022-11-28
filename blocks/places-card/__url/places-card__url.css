@@ -1,0 +1,9 @@
+.places-card__url {
+  align-self: end;
+}
+
+@media screen and (max-width: 660px) {
+  .places-card__url {
+    margin: 0 16px;
+  }
+}

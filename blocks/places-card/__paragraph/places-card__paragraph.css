@@ -1,0 +1,11 @@
+.places-card__paragraph {
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+}
+
+@media screen and (max-width: 660px) {
+  .places-card__paragraph {
+    margin: 0 16px;
+  }
+}

@@ -1,13 +1,13 @@
 .places-card__text {
   margin: 0;
   font-weight: 400;
-  line-height: 29px;
+  line-height: 1.61;
   font-size: 18px;
 }
 
 @media screen and (max-width: 770px) {
   .places-card__text {
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.625;
   }
 }

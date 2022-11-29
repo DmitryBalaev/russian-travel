@@ -19,6 +19,7 @@
     margin: 0 24px;
   }
 }
+
 @media screen and (max-width: 660px) {
   .places-card {
     grid-template-columns: 1fr;

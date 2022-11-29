@@ -1,7 +1,7 @@
 .intro__title {
   font-weight: 900;
   font-size: 54px;
-  line-height: 58px;
+  line-height: 1.07;
   margin: 92px 0 40px;
 }
 
@@ -10,10 +10,11 @@
     margin-top: 88px;
   }
 }
+
 @media screen and (max-width: 660px) {
   .intro__title {
     margin-top: 64px;
     font-size: 32px;
-    line-height: 35px;
+    line-height: 1.09;
   }
 }

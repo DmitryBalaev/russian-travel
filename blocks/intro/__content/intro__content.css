@@ -6,12 +6,13 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 770px) {
   .intro__content {
     max-width: 720px;
   }
 }
-@media screen and (max-width: 660px){
+
+@media screen and (max-width: 660px) {
   .intro__content {
     max-width: 500px;
     margin: 0 16px;

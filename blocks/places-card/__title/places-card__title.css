@@ -1,14 +1,14 @@
 .places-card__title {
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 1.05x;
   margin: 0;
 }
 
 @media screen and (max-width: 770px) {
   .places-card__title {
     font-size: 42px;
-    line-height: 46px;
+    line-height: 1.09;
     text-align: left;
   }
 }
@@ -22,7 +22,7 @@
 @media screen and (max-width: 320px) {
   .places-card__title {
     font-size: 32px;
-    line-height: 35px;
+    line-height: 1.09;
     text-align: left;
   }
 }

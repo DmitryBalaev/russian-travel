@@ -4,6 +4,7 @@
   z-index: 1;
   position: relative;
 }
+
 .cover__link::before {
   content: "";
   position: absolute;
@@ -14,6 +15,7 @@
   background-color: rgba(42, 44, 47, .3);
   transition: background-color .5s;
 }
+
 .cover__link:hover::before {
   background-color: rgba(42, 44, 47, .8);
 }

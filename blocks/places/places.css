@@ -12,15 +12,14 @@
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 880px) {
   .places {
-    max-width: 720px;
     margin: 0;
     row-gap: 73px;
   }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 695px) {
   .places {
     row-gap: 50px;
     margin-bottom: 66px;

@@ -6,7 +6,7 @@
   margin: 28px 48px 0;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 880px) {
   .header {
     margin-left: 24px;
     margin-right: 24px;

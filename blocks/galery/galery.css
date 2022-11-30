@@ -7,13 +7,13 @@
   gap: 16px;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 880px) {
   .galery {
     margin: 88px 24px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 695px) {
   .galery {
     margin: 64px 16px;
     gap: 12px;

@@ -4,7 +4,7 @@
   row-gap: 26px;
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 695px) {
   .places-card__paragraph {
     margin: 0 16px;
   }

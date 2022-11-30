@@ -5,7 +5,7 @@
   font-size: 18px;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 880px) {
   .places-card__text {
     font-size: 16px;
     line-height: 1.625;

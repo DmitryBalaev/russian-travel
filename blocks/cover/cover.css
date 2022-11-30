@@ -6,13 +6,13 @@
   grid-template-columns: 1fr 560px 1fr;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 880px) {
   .cover {
     margin-top: 90px;
   }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 695px) {
   .cover {
     margin-top: 66px;
     grid-template-rows: 1fr 70px 48px 1fr;

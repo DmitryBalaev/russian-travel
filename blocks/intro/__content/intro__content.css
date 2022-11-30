@@ -5,13 +5,13 @@
   max-width: 690px;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 880px) {
   .intro__content {
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 695px) {
   .intro__content {
     margin: 0 16px;
   }

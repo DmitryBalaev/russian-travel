@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 880px) {
   .places-card {
     grid-template-columns: repeat(auto-fit, minmax(calc((100% - 28px)/2), 1fr));
     column-gap: 28px;
@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 695px) {
   .places-card {
     grid-template-columns: 1fr;
     row-gap: 35px;

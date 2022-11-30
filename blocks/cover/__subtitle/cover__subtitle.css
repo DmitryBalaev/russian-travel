@@ -10,7 +10,6 @@
   align-self: center;
   padding-top: 32px;
   z-index: 1;
-  text-align: center;
 }
 
 @media screen and (max-width: 695px) {

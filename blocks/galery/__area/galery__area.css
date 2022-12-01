@@ -1,0 +1,25 @@
+.galery__area {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  justify-items: center;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ @media screen and (max-width: 1024px) {
+  .galery__area {
+    gap: 14px;
+  }
+ }
+
+ @media screen and (max-width: 880px) {
+  .galery__area {
+    gap: 16px;
+  }
+ }
+@media screen and (max-width: 695px) {
+  .galery__area {
+    gap: 12px;
+  }
+}

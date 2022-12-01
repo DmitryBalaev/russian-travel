@@ -3,7 +3,11 @@
   flex-direction: column;
   row-gap: 26px;
 }
-
+@media screen and (max-width: 880px) {
+  .places-card__paragraph {
+    row-gap: 25px;
+  }
+}
 @media screen and (max-width: 695px) {
   .places-card__paragraph {
     margin: 0 16px;

@@ -1,10 +1,11 @@
 .places-card__link {
-  color: inherit;
+  color: #fff;
   font-size: 18px;
   line-height: 1.22;
+  text-decoration: underline;
+  transition: opacity .5s;
 }
 
 .places-card__link:hover {
   opacity: .8;
-  transition: opacity .5s;
 }

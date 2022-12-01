@@ -1,3 +1,4 @@
 .places-card__img {
+  display: block;
   width: 100%;
 }

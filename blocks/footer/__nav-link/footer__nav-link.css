@@ -1,9 +1,9 @@
 .footer__nav-link {
-  color: inherit;
+  color: #fff;
   text-decoration: none;
+  transition: opacity .5s;
 }
 
 .footer__nav-link:hover {
   opacity: .8;
-  transition: opacity .5s;
 }

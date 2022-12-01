@@ -1,21 +1,11 @@
 .cover {
   max-width: 1184px;
   margin: 0 auto;
-  display: grid;
-  grid-template-rows: 1fr 152px 98px 1fr;
-  grid-template-columns: 1fr 560px 1fr;
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 1024px) {
   .cover {
-    margin-top: 90px;
+    margin: 0;
   }
 }
 
-@media screen and (max-width: 695px) {
-  .cover {
-    margin-top: 66px;
-    grid-template-rows: 1fr 70px 48px 1fr;
-    grid-template-columns: 1fr 288px 1fr;
-  }
-}

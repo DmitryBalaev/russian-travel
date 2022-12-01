@@ -3,7 +3,7 @@
   margin: 0 auto;
   display: grid;
   row-gap: 80px;
-  margin-bottom: 90px;
+  margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 880px) {
   .places {
-    margin: 0;
+    margin-bottom: 90px;
     row-gap: 73px;
   }
 }

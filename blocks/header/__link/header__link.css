@@ -1,15 +1,15 @@
 .header__link {
   text-decoration: none;
-  color: inherit;
+  color: #fff;
   font-size: 24px;
-  line-height: 1.16;
+  line-height: 1.17;
   text-align: right;
   font-weight: 400;
+  transition: opacity .5s;
 }
 
 .header__link:hover {
   opacity: .8;
-  transition: opacity .5s;
 }
 
 @media screen and (max-width: 320px) {

@@ -1,20 +1,20 @@
 .places-card {
   max-width: 984px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(calc((100% - 40px)/2), 1fr));
+  grid-template-columns: 460px 1fr;
   gap: 48px 40px;
 }
 
 @media screen and (max-width: 1024px) {
   .places-card {
-    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 32px)/2), 1fr));
+    grid-template-columns: 440px 1fr;
     column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 880px) {
   .places-card {
-    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 28px)/2), 1fr));
+    grid-template-columns: 340px 1fr;
     column-gap: 28px;
     margin: 0 24px;
   }
@@ -23,7 +23,7 @@
 @media screen and (max-width: 695px) {
   .places-card {
     grid-template-columns: 1fr;
-    row-gap: 35px;
+    row-gap: 32px;
     margin: 0;
   }
 }
